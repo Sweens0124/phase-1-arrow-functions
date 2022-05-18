@@ -6,7 +6,7 @@ describe("index.js", () => {
   it("divide divides 2000 by 100", () => {
     let a = 2000
     let b = 100
-    expect(divide(a,b)).to.equal(a/b)
+    expect(divide(a, b)).to.equal(a / b)
   })
 
   it("has an arrow function called square", () => {
@@ -25,6 +25,6 @@ describe("index.js", () => {
   it("add arrow function takes two parameters and adds them together", () => {
     let a = 3
     let b = 4
-    expect(add(a,b)).to.equal(a+b)
+    expect(add(a, b)).to.equal(a + b)
   })
 })
